@@ -1,0 +1,333 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		845FCE281832E7A200F6B21D /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 845FCE271832E7A200F6B21D /* UIKit.framework */; };
+		845FCE2A1832E7A200F6B21D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 845FCE291832E7A200F6B21D /* Foundation.framework */; };
+		845FCE2C1832E7A200F6B21D /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 845FCE2B1832E7A200F6B21D /* CoreGraphics.framework */; };
+		845FCE321832E7A200F6B21D /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 845FCE301832E7A200F6B21D /* InfoPlist.strings */; };
+		845FCE341832E7A200F6B21D /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 845FCE331832E7A200F6B21D /* main.m */; };
+		845FCE381832E7A200F6B21D /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 845FCE371832E7A200F6B21D /* AppDelegate.m */; };
+		845FCE3A1832E7A200F6B21D /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 845FCE391832E7A200F6B21D /* Default.png */; };
+		845FCE3C1832E7A200F6B21D /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 845FCE3B1832E7A200F6B21D /* Default@2x.png */; };
+		845FCE3E1832E7A200F6B21D /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 845FCE3D1832E7A200F6B21D /* Default-568h@2x.png */; };
+		845FCE451832E7C600F6B21D /* OpenGLES.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 845FCE441832E7C600F6B21D /* OpenGLES.framework */; };
+		845FCE471832E7D800F6B21D /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 845FCE461832E7D800F6B21D /* QuartzCore.framework */; };
+		845FCE4B1832E8BA00F6B21D /* ParticleEmitter.m in Sources */ = {isa = PBXBuildFile; fileRef = 845FCE4A1832E8BA00F6B21D /* ParticleEmitter.m */; };
+		845FCE4E1832E99400F6B21D /* Image.m in Sources */ = {isa = PBXBuildFile; fileRef = 845FCE4D1832E99400F6B21D /* Image.m */; };
+		845FCE511832E9DC00F6B21D /* Texture2D.m in Sources */ = {isa = PBXBuildFile; fileRef = 845FCE501832E9DC00F6B21D /* Texture2D.m */; };
+		845FCE541832EA4D00F6B21D /* EAGLView.m in Sources */ = {isa = PBXBuildFile; fileRef = 845FCE531832EA4D00F6B21D /* EAGLView.m */; };
+		845FCE591832F08300F6B21D /* MainWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = 845FCE571832F08300F6B21D /* MainWindow.xib */; };
+		845FCE5C1832F2F300F6B21D /* AppState.m in Sources */ = {isa = PBXBuildFile; fileRef = 845FCE5B1832F2F200F6B21D /* AppState.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		845FCE241832E7A200F6B21D /* ParticleDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ParticleDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		845FCE271832E7A200F6B21D /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		845FCE291832E7A200F6B21D /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		845FCE2B1832E7A200F6B21D /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		845FCE2F1832E7A200F6B21D /* ParticleDemo-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "ParticleDemo-Info.plist"; sourceTree = "<group>"; };
+		845FCE311832E7A200F6B21D /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		845FCE331832E7A200F6B21D /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		845FCE351832E7A200F6B21D /* ParticleDemo-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "ParticleDemo-Prefix.pch"; sourceTree = "<group>"; };
+		845FCE361832E7A200F6B21D /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		845FCE371832E7A200F6B21D /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		845FCE391832E7A200F6B21D /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		845FCE3B1832E7A200F6B21D /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		845FCE3D1832E7A200F6B21D /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		845FCE441832E7C600F6B21D /* OpenGLES.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenGLES.framework; path = System/Library/Frameworks/OpenGLES.framework; sourceTree = SDKROOT; };
+		845FCE461832E7D800F6B21D /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		845FCE481832E85D00F6B21D /* ParticleTemplate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ParticleTemplate.h; path = ../ParticleTemplate.h; sourceTree = "<group>"; };
+		845FCE491832E8BA00F6B21D /* ParticleEmitter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ParticleEmitter.h; path = ../ParticleEmitter.h; sourceTree = "<group>"; };
+		845FCE4A1832E8BA00F6B21D /* ParticleEmitter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ParticleEmitter.m; path = ../ParticleEmitter.m; sourceTree = "<group>"; };
+		845FCE4C1832E99400F6B21D /* Image.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Image.h; sourceTree = "<group>"; };
+		845FCE4D1832E99400F6B21D /* Image.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Image.m; sourceTree = "<group>"; };
+		845FCE4F1832E9DC00F6B21D /* Texture2D.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Texture2D.h; sourceTree = "<group>"; };
+		845FCE501832E9DC00F6B21D /* Texture2D.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Texture2D.m; sourceTree = "<group>"; };
+		845FCE521832EA4D00F6B21D /* EAGLView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EAGLView.h; sourceTree = "<group>"; };
+		845FCE531832EA4D00F6B21D /* EAGLView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EAGLView.m; sourceTree = "<group>"; };
+		845FCE571832F08300F6B21D /* MainWindow.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MainWindow.xib; sourceTree = "<group>"; };
+		845FCE5A1832F2F200F6B21D /* AppState.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppState.h; sourceTree = "<group>"; };
+		845FCE5B1832F2F200F6B21D /* AppState.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppState.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		845FCE211832E7A200F6B21D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				845FCE471832E7D800F6B21D /* QuartzCore.framework in Frameworks */,
+				845FCE451832E7C600F6B21D /* OpenGLES.framework in Frameworks */,
+				845FCE281832E7A200F6B21D /* UIKit.framework in Frameworks */,
+				845FCE2A1832E7A200F6B21D /* Foundation.framework in Frameworks */,
+				845FCE2C1832E7A200F6B21D /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		845FCE1B1832E7A200F6B21D = {
+			isa = PBXGroup;
+			children = (
+				845FCE2D1832E7A200F6B21D /* ParticleDemo */,
+				845FCE261832E7A200F6B21D /* Frameworks */,
+				845FCE251832E7A200F6B21D /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		845FCE251832E7A200F6B21D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				845FCE241832E7A200F6B21D /* ParticleDemo.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		845FCE261832E7A200F6B21D /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				845FCE461832E7D800F6B21D /* QuartzCore.framework */,
+				845FCE441832E7C600F6B21D /* OpenGLES.framework */,
+				845FCE271832E7A200F6B21D /* UIKit.framework */,
+				845FCE291832E7A200F6B21D /* Foundation.framework */,
+				845FCE2B1832E7A200F6B21D /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		845FCE2D1832E7A200F6B21D /* ParticleDemo */ = {
+			isa = PBXGroup;
+			children = (
+				845FCE491832E8BA00F6B21D /* ParticleEmitter.h */,
+				845FCE4A1832E8BA00F6B21D /* ParticleEmitter.m */,
+				845FCE4C1832E99400F6B21D /* Image.h */,
+				845FCE4D1832E99400F6B21D /* Image.m */,
+				845FCE521832EA4D00F6B21D /* EAGLView.h */,
+				845FCE531832EA4D00F6B21D /* EAGLView.m */,
+				845FCE4F1832E9DC00F6B21D /* Texture2D.h */,
+				845FCE501832E9DC00F6B21D /* Texture2D.m */,
+				845FCE361832E7A200F6B21D /* AppDelegate.h */,
+				845FCE371832E7A200F6B21D /* AppDelegate.m */,
+				845FCE5A1832F2F200F6B21D /* AppState.h */,
+				845FCE5B1832F2F200F6B21D /* AppState.m */,
+				845FCE571832F08300F6B21D /* MainWindow.xib */,
+				845FCE481832E85D00F6B21D /* ParticleTemplate.h */,
+				845FCE2E1832E7A200F6B21D /* Supporting Files */,
+			);
+			path = ParticleDemo;
+			sourceTree = "<group>";
+		};
+		845FCE2E1832E7A200F6B21D /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				845FCE2F1832E7A200F6B21D /* ParticleDemo-Info.plist */,
+				845FCE301832E7A200F6B21D /* InfoPlist.strings */,
+				845FCE331832E7A200F6B21D /* main.m */,
+				845FCE351832E7A200F6B21D /* ParticleDemo-Prefix.pch */,
+				845FCE391832E7A200F6B21D /* Default.png */,
+				845FCE3B1832E7A200F6B21D /* Default@2x.png */,
+				845FCE3D1832E7A200F6B21D /* Default-568h@2x.png */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		845FCE231832E7A200F6B21D /* ParticleDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 845FCE411832E7A200F6B21D /* Build configuration list for PBXNativeTarget "ParticleDemo" */;
+			buildPhases = (
+				845FCE201832E7A200F6B21D /* Sources */,
+				845FCE211832E7A200F6B21D /* Frameworks */,
+				845FCE221832E7A200F6B21D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ParticleDemo;
+			productName = ParticleDemo;
+			productReference = 845FCE241832E7A200F6B21D /* ParticleDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		845FCE1C1832E7A200F6B21D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0460;
+				ORGANIZATIONNAME = "Nathan Fitzgibbon";
+			};
+			buildConfigurationList = 845FCE1F1832E7A200F6B21D /* Build configuration list for PBXProject "ParticleDemo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 845FCE1B1832E7A200F6B21D;
+			productRefGroup = 845FCE251832E7A200F6B21D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				845FCE231832E7A200F6B21D /* ParticleDemo */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		845FCE221832E7A200F6B21D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				845FCE321832E7A200F6B21D /* InfoPlist.strings in Resources */,
+				845FCE3A1832E7A200F6B21D /* Default.png in Resources */,
+				845FCE3C1832E7A200F6B21D /* Default@2x.png in Resources */,
+				845FCE3E1832E7A200F6B21D /* Default-568h@2x.png in Resources */,
+				845FCE591832F08300F6B21D /* MainWindow.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		845FCE201832E7A200F6B21D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				845FCE341832E7A200F6B21D /* main.m in Sources */,
+				845FCE381832E7A200F6B21D /* AppDelegate.m in Sources */,
+				845FCE4B1832E8BA00F6B21D /* ParticleEmitter.m in Sources */,
+				845FCE4E1832E99400F6B21D /* Image.m in Sources */,
+				845FCE511832E9DC00F6B21D /* Texture2D.m in Sources */,
+				845FCE541832EA4D00F6B21D /* EAGLView.m in Sources */,
+				845FCE5C1832F2F300F6B21D /* AppState.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		845FCE301832E7A200F6B21D /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				845FCE311832E7A200F6B21D /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		845FCE3F1832E7A200F6B21D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = 2;
+			};
+			name = Debug;
+		};
+		845FCE401832E7A200F6B21D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = 2;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		845FCE421832E7A200F6B21D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "ParticleDemo/ParticleDemo-Prefix.pch";
+				INFOPLIST_FILE = "ParticleDemo/ParticleDemo-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		845FCE431832E7A200F6B21D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "ParticleDemo/ParticleDemo-Prefix.pch";
+				INFOPLIST_FILE = "ParticleDemo/ParticleDemo-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		845FCE1F1832E7A200F6B21D /* Build configuration list for PBXProject "ParticleDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				845FCE3F1832E7A200F6B21D /* Debug */,
+				845FCE401832E7A200F6B21D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		845FCE411832E7A200F6B21D /* Build configuration list for PBXNativeTarget "ParticleDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				845FCE421832E7A200F6B21D /* Debug */,
+				845FCE431832E7A200F6B21D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 845FCE1C1832E7A200F6B21D /* Project object */;
+}

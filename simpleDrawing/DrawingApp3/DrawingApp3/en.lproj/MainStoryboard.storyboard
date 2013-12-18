@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="4514" systemVersion="13A603" targetRuntime="iOS.CocoaTouch.iPad" propertyAccessControl="none" useAutolayout="YES" initialViewController="2">
+    <dependencies>
+        <deployment defaultVersion="1296" identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="3747"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="4">
+            <objects>
+                <viewController id="2" customClass="ViewController" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="dGN-Lw-78R"/>
+                        <viewControllerLayoutGuide type="bottom" id="gck-ct-ZIv"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="5">
+                        <rect key="frame" x="0.0" y="0.0" width="768" height="1024"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="nMR-8f-mku" userLabel="mainImage">
+                                <rect key="frame" x="0.0" y="0.0" width="768" height="1024"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Foy-Du-4PK" userLabel="tempDrawImage">
+                                <rect key="frame" x="0.0" y="0.0" width="768" height="1024"/>
+                            </imageView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="nMR-8f-mku" firstAttribute="leading" secondItem="5" secondAttribute="leading" id="4lG-cU-2KX"/>
+                            <constraint firstItem="Foy-Du-4PK" firstAttribute="leading" secondItem="5" secondAttribute="leading" id="56k-sf-cHC"/>
+                            <constraint firstItem="Foy-Du-4PK" firstAttribute="trailing" secondItem="5" secondAttribute="trailing" id="O3d-0Y-CpP"/>
+                            <constraint firstItem="Foy-Du-4PK" firstAttribute="bottom" secondItem="5" secondAttribute="bottom" id="QNp-BZ-NB9"/>
+                            <constraint firstItem="nMR-8f-mku" firstAttribute="bottom" secondItem="5" secondAttribute="bottom" id="kuQ-ee-54d"/>
+                            <constraint firstItem="Foy-Du-4PK" firstAttribute="top" secondItem="5" secondAttribute="top" id="mK2-un-Ww0"/>
+                            <constraint firstItem="nMR-8f-mku" firstAttribute="top" secondItem="5" secondAttribute="top" id="pa8-rO-tYi"/>
+                            <constraint firstItem="nMR-8f-mku" firstAttribute="trailing" secondItem="5" secondAttribute="trailing" id="rmA-rn-cYL"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="mainImage" destination="nMR-8f-mku" id="AiL-4n-Lop"/>
+                        <outlet property="tempDrawImage" destination="Foy-Du-4PK" id="E31-ly-XbS"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="3" sceneMemberID="firstResponder"/>
+            </objects>
+        </scene>
+    </scenes>
+    <simulatedMetricsContainer key="defaultSimulatedMetrics">
+        <simulatedStatusBarMetrics key="statusBar"/>
+        <simulatedOrientationMetrics key="orientation"/>
+        <simulatedScreenMetrics key="destination"/>
+    </simulatedMetricsContainer>
+</document>

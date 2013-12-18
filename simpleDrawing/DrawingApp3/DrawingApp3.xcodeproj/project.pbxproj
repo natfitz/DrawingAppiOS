@@ -1,0 +1,345 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		841F60FC1858343A00AA5DD0 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 841F60FB1858343A00AA5DD0 /* UIKit.framework */; };
+		841F60FE1858343A00AA5DD0 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 841F60FD1858343A00AA5DD0 /* Foundation.framework */; };
+		841F61001858343A00AA5DD0 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 841F60FF1858343A00AA5DD0 /* CoreGraphics.framework */; };
+		841F61061858343B00AA5DD0 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 841F61041858343B00AA5DD0 /* InfoPlist.strings */; };
+		841F61081858343B00AA5DD0 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 841F61071858343B00AA5DD0 /* main.m */; };
+		841F610C1858343B00AA5DD0 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 841F610B1858343B00AA5DD0 /* AppDelegate.m */; };
+		841F610E1858343B00AA5DD0 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 841F610D1858343B00AA5DD0 /* Default.png */; };
+		841F61101858343B00AA5DD0 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 841F610F1858343B00AA5DD0 /* Default@2x.png */; };
+		841F61121858343B00AA5DD0 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 841F61111858343B00AA5DD0 /* Default-568h@2x.png */; };
+		841F61151858343B00AA5DD0 /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 841F61131858343B00AA5DD0 /* MainStoryboard.storyboard */; };
+		841F61181858343B00AA5DD0 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 841F61171858343B00AA5DD0 /* ViewController.m */; };
+		841F611F1858394A00AA5DD0 /* Accelerate.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 841F611E1858394A00AA5DD0 /* Accelerate.framework */; };
+		841F61211858395200AA5DD0 /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 841F61201858395200AA5DD0 /* AudioToolbox.framework */; };
+		841F61231858395A00AA5DD0 /* CoreAudio.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 841F61221858395A00AA5DD0 /* CoreAudio.framework */; };
+		841F612818583A0B00AA5DD0 /* CAXException.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 841F612718583A0B00AA5DD0 /* CAXException.cpp */; };
+		841F612B18583B1500AA5DD0 /* RIOInterface.mm in Sources */ = {isa = PBXBuildFile; fileRef = 841F612A18583B1500AA5DD0 /* RIOInterface.mm */; };
+		841F612F185842B300AA5DD0 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 841F612E185842B300AA5DD0 /* AVFoundation.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		841F60F81858343A00AA5DD0 /* DrawingApp3.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DrawingApp3.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		841F60FB1858343A00AA5DD0 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		841F60FD1858343A00AA5DD0 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		841F60FF1858343A00AA5DD0 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		841F61031858343B00AA5DD0 /* DrawingApp3-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "DrawingApp3-Info.plist"; sourceTree = "<group>"; };
+		841F61051858343B00AA5DD0 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		841F61071858343B00AA5DD0 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		841F61091858343B00AA5DD0 /* DrawingApp3-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "DrawingApp3-Prefix.pch"; sourceTree = "<group>"; };
+		841F610A1858343B00AA5DD0 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		841F610B1858343B00AA5DD0 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		841F610D1858343B00AA5DD0 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		841F610F1858343B00AA5DD0 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		841F61111858343B00AA5DD0 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		841F61141858343B00AA5DD0 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard.storyboard; sourceTree = "<group>"; };
+		841F61161858343B00AA5DD0 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		841F61171858343B00AA5DD0 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		841F611E1858394A00AA5DD0 /* Accelerate.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Accelerate.framework; path = System/Library/Frameworks/Accelerate.framework; sourceTree = SDKROOT; };
+		841F61201858395200AA5DD0 /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
+		841F61221858395A00AA5DD0 /* CoreAudio.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreAudio.framework; path = System/Library/Frameworks/CoreAudio.framework; sourceTree = SDKROOT; };
+		841F6124185839C200AA5DD0 /* CAStreamBasicDescription.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CAStreamBasicDescription.h; sourceTree = "<group>"; };
+		841F6125185839DF00AA5DD0 /* CADebugMacros.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CADebugMacros.h; sourceTree = "<group>"; };
+		841F6126185839F700AA5DD0 /* CAXException.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CAXException.h; sourceTree = "<group>"; };
+		841F612718583A0B00AA5DD0 /* CAXException.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = CAXException.cpp; sourceTree = "<group>"; };
+		841F612918583B1500AA5DD0 /* RIOInterface.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RIOInterface.h; sourceTree = "<group>"; };
+		841F612A18583B1500AA5DD0 /* RIOInterface.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = RIOInterface.mm; sourceTree = "<group>"; };
+		841F612E185842B300AA5DD0 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		841F60F51858343A00AA5DD0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				841F612F185842B300AA5DD0 /* AVFoundation.framework in Frameworks */,
+				841F61231858395A00AA5DD0 /* CoreAudio.framework in Frameworks */,
+				841F61211858395200AA5DD0 /* AudioToolbox.framework in Frameworks */,
+				841F611F1858394A00AA5DD0 /* Accelerate.framework in Frameworks */,
+				841F60FC1858343A00AA5DD0 /* UIKit.framework in Frameworks */,
+				841F60FE1858343A00AA5DD0 /* Foundation.framework in Frameworks */,
+				841F61001858343A00AA5DD0 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		841F60EF1858343A00AA5DD0 = {
+			isa = PBXGroup;
+			children = (
+				841F6124185839C200AA5DD0 /* CAStreamBasicDescription.h */,
+				841F6125185839DF00AA5DD0 /* CADebugMacros.h */,
+				841F6126185839F700AA5DD0 /* CAXException.h */,
+				841F612718583A0B00AA5DD0 /* CAXException.cpp */,
+				841F61011858343A00AA5DD0 /* DrawingApp3 */,
+				841F60FA1858343A00AA5DD0 /* Frameworks */,
+				841F60F91858343A00AA5DD0 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		841F60F91858343A00AA5DD0 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				841F60F81858343A00AA5DD0 /* DrawingApp3.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		841F60FA1858343A00AA5DD0 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				841F612E185842B300AA5DD0 /* AVFoundation.framework */,
+				841F61221858395A00AA5DD0 /* CoreAudio.framework */,
+				841F61201858395200AA5DD0 /* AudioToolbox.framework */,
+				841F611E1858394A00AA5DD0 /* Accelerate.framework */,
+				841F60FB1858343A00AA5DD0 /* UIKit.framework */,
+				841F60FD1858343A00AA5DD0 /* Foundation.framework */,
+				841F60FF1858343A00AA5DD0 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		841F61011858343A00AA5DD0 /* DrawingApp3 */ = {
+			isa = PBXGroup;
+			children = (
+				841F610A1858343B00AA5DD0 /* AppDelegate.h */,
+				841F610B1858343B00AA5DD0 /* AppDelegate.m */,
+				841F61131858343B00AA5DD0 /* MainStoryboard.storyboard */,
+				841F61161858343B00AA5DD0 /* ViewController.h */,
+				841F61171858343B00AA5DD0 /* ViewController.m */,
+				841F612918583B1500AA5DD0 /* RIOInterface.h */,
+				841F612A18583B1500AA5DD0 /* RIOInterface.mm */,
+				841F61021858343B00AA5DD0 /* Supporting Files */,
+			);
+			path = DrawingApp3;
+			sourceTree = "<group>";
+		};
+		841F61021858343B00AA5DD0 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				841F61031858343B00AA5DD0 /* DrawingApp3-Info.plist */,
+				841F61041858343B00AA5DD0 /* InfoPlist.strings */,
+				841F61071858343B00AA5DD0 /* main.m */,
+				841F61091858343B00AA5DD0 /* DrawingApp3-Prefix.pch */,
+				841F610D1858343B00AA5DD0 /* Default.png */,
+				841F610F1858343B00AA5DD0 /* Default@2x.png */,
+				841F61111858343B00AA5DD0 /* Default-568h@2x.png */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		841F60F71858343A00AA5DD0 /* DrawingApp3 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 841F611B1858343B00AA5DD0 /* Build configuration list for PBXNativeTarget "DrawingApp3" */;
+			buildPhases = (
+				841F60F41858343A00AA5DD0 /* Sources */,
+				841F60F51858343A00AA5DD0 /* Frameworks */,
+				841F60F61858343A00AA5DD0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = DrawingApp3;
+			productName = DrawingApp3;
+			productReference = 841F60F81858343A00AA5DD0 /* DrawingApp3.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		841F60F01858343A00AA5DD0 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0460;
+				ORGANIZATIONNAME = "Nathan Fitzgibbon";
+			};
+			buildConfigurationList = 841F60F31858343A00AA5DD0 /* Build configuration list for PBXProject "DrawingApp3" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 841F60EF1858343A00AA5DD0;
+			productRefGroup = 841F60F91858343A00AA5DD0 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				841F60F71858343A00AA5DD0 /* DrawingApp3 */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		841F60F61858343A00AA5DD0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				841F61061858343B00AA5DD0 /* InfoPlist.strings in Resources */,
+				841F610E1858343B00AA5DD0 /* Default.png in Resources */,
+				841F61101858343B00AA5DD0 /* Default@2x.png in Resources */,
+				841F61121858343B00AA5DD0 /* Default-568h@2x.png in Resources */,
+				841F61151858343B00AA5DD0 /* MainStoryboard.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		841F60F41858343A00AA5DD0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				841F61081858343B00AA5DD0 /* main.m in Sources */,
+				841F610C1858343B00AA5DD0 /* AppDelegate.m in Sources */,
+				841F61181858343B00AA5DD0 /* ViewController.m in Sources */,
+				841F612818583A0B00AA5DD0 /* CAXException.cpp in Sources */,
+				841F612B18583B1500AA5DD0 /* RIOInterface.mm in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		841F61041858343B00AA5DD0 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				841F61051858343B00AA5DD0 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		841F61131858343B00AA5DD0 /* MainStoryboard.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				841F61141858343B00AA5DD0 /* en */,
+			);
+			name = MainStoryboard.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		841F61191858343B00AA5DD0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = 2;
+			};
+			name = Debug;
+		};
+		841F611A1858343B00AA5DD0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = 2;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		841F611C1858343B00AA5DD0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "DrawingApp3/DrawingApp3-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = "";
+				INFOPLIST_FILE = "DrawingApp3/DrawingApp3-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				ONLY_ACTIVE_ARCH = NO;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				VALIDATE_PRODUCT = NO;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		841F611D1858343B00AA5DD0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "DrawingApp3/DrawingApp3-Prefix.pch";
+				INFOPLIST_FILE = "DrawingApp3/DrawingApp3-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				ONLY_ACTIVE_ARCH = NO;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				VALIDATE_PRODUCT = NO;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		841F60F31858343A00AA5DD0 /* Build configuration list for PBXProject "DrawingApp3" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				841F61191858343B00AA5DD0 /* Debug */,
+				841F611A1858343B00AA5DD0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		841F611B1858343B00AA5DD0 /* Build configuration list for PBXNativeTarget "DrawingApp3" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				841F611C1858343B00AA5DD0 /* Debug */,
+				841F611D1858343B00AA5DD0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 841F60F01858343A00AA5DD0 /* Project object */;
+}
